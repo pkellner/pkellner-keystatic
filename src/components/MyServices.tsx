@@ -1,12 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function MyServices() {
   const [showDetails, setShowDetails] = useState(false);
 
   const toggleDetails = () => setShowDetails(!showDetails);
-
-  // const x = process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG;
-  // console.log("PUBLIC_KEYSTATIC_GITHUB_APP_SLUG: ", x);
 
   return (
     <div className="mx-auto max-w-4xl p-4">
@@ -34,7 +31,7 @@ export default function MyServices() {
             data-astro-source-file="/Users/peterkellner/repos/pkellner-blog-astro/pkellner-blog-astropaper/src/components/Socials.astro"
             data-astro-source-loc="22:31"
           >
-            Send an email to Peter Kellner's Blog   PUBLIC_KEYSTATIC_GITHUB_APP_SLUG:
+            Send an email to Peter Kellner's Blog
           </span>{" "}
         </a>
       </h2>
