@@ -10,6 +10,7 @@ import alpinejs from "@astrojs/alpinejs";
 import markdoc from "@astrojs/markdoc";
 import keystatic from "@keystatic/astro";
 
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,

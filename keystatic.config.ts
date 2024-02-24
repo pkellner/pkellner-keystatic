@@ -1,9 +1,13 @@
 // keystatic.config.ts
 import { config, fields, collection } from '@keystatic/core';
 
+const REPO_OWNER = 'pkellner';
+const REPO_NAME = 'pkellner-keystatic';
+
 export default config({
   storage: {
-    kind: 'local',
+    kind: 'github',
+    repo: `${REPO_OWNER}/${REPO_NAME}`
   },
   collections: {
     posts: collection({
