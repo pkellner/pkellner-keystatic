@@ -2,6 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://pkellner99.github.io/", // replace this with your deployed domain
+  base: "pkellner-keystatic", // replace this with your project base path
   author: "Peter Kellner",
   desc: "Problem solver author teacher",
   title: "Peter Kellner's Blog",

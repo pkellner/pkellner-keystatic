@@ -10,6 +10,7 @@ import alpinejs from "@astrojs/alpinejs";
 
 export default defineConfig({
   site: SITE.website,
+  base: SITE.base,
   integrations: [tailwind({
     applyBaseStyles: false
   }), react(), sitemap(), alpinejs()],
