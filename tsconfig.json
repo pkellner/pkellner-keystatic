@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/Users/peterkellner/repos/pkellner-keystatic/src",
+    "baseUrl": "src",
     "jsx": "react-jsx",
     "paths": {
       "@assets/*": [
